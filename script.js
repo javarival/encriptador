@@ -48,7 +48,8 @@ function desencriptar(stringDesencriptado){
 
 function btnCopiar(){
     mensaje.select();
-    document.execCommand("copy");
-    mensaje.value="";
+    navigator.clipboard.writeText(mensaje.value)
+    mensaje.value = "";
+    alert("Texto Copiado")
 
 }

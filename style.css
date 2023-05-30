@@ -4,6 +4,7 @@
     font-weight: 400;   /*peso o grueso de la letra*/
     font-size: 32px;    /*dimensión o tamaño de la letra*/
     line-height: 150%;  /*Altura de una casilla remarcada por líneas, establece la distancia entre líneas de texto*/
+    overflow-y: hidden; /*propiedad que nos permite determinar lo que sucede con un elemento cuando su contenido sobrepasa los límites de su contenedor*/
 }
 
 body{
